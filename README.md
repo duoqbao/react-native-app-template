@@ -25,7 +25,7 @@ To set up the project, follow these steps:
 
 ## Structure
 :vertical_traffic_light:
-
+```
 react-native-app-template/
 │
 ├── src/
@@ -74,5 +74,5 @@ react-native-app-template/
 | |
 ├── App.js
 └── ...
-
+```
 :headphones: Happy coding !
