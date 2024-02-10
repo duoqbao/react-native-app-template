@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This markdown provides a basic structure for creating a React Native app using popular libraries like React Navigation for navigation, React Query for data fetching, and Zustand for state management.
+This markdown provides a basic structure for this template.
 
 ### Technologies Used:
 
@@ -10,6 +10,7 @@ This markdown provides a basic structure for creating a React Native app using p
 - React Navigation
 - React Query
 - Zustand
+- Axios
 
 ## Setup & Run
 
@@ -18,13 +19,19 @@ To set up the project, follow these steps:
 1. **Clone this repo**
    `git clone https://github.com/duoqbao/react-native-app-template.git`
 2. **Run source**
-   `cd react-native-app-template`
-   `yarn install`
-   `cd ios && pod install`
-   `cd .. && yarn start`
 
-## Structure
-:vertical_traffic_light:
+```
+   cd react-native-app-template
+
+   yarn install
+
+   cd ios && pod install
+
+   cd .. && yarn start
+```
+
+## Structure :vertical_traffic_light:
+
 ```
 react-native-app-template/
 │
@@ -52,7 +59,7 @@ react-native-app-template/
 │ │
 │ ├── navigators/
 │ │ └── index.tsx (root navigators, where u can authorize, custom routes,...)
-│ | └── private.tsx 
+│ | └── private.tsx
 │ | └── public.tsx
 │ │
 │ └── screens/
@@ -61,8 +68,8 @@ react-native-app-template/
 │ | └── ...etc/
 | |
 │ └── store/
-│ | └── useStore.ts 
-│ | └── useAnotherStore.ts 
+│ | └── useStore.ts
+│ | └── useAnotherStore.ts
 | |
 │ └── types/
 │ | └── global.ts
@@ -75,4 +82,5 @@ react-native-app-template/
 ├── App.js
 └── ...
 ```
+
 :headphones: Happy coding !
